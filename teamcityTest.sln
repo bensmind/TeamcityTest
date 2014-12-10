@@ -7,9 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CE45A10E-CAF8-4351-8703-354D0F2F4A65}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{BD492CA6-C199-4878-A53E-5FC1B3766348}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Test", "test\unit\Website.Test\Website.Test.csproj", "{8B061F90-1407-4010-B345-5EC0BAC84A9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Test", "test\Website.Test\Website.Test.csproj", "{8B061F90-1407-4010-B345-5EC0BAC84A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,7 +28,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BD492CA6-C199-4878-A53E-5FC1B3766348} = {CE45A10E-CAF8-4351-8703-354D0F2F4A65}
-		{8B061F90-1407-4010-B345-5EC0BAC84A9A} = {BD492CA6-C199-4878-A53E-5FC1B3766348}
+		{8B061F90-1407-4010-B345-5EC0BAC84A9A} = {CE45A10E-CAF8-4351-8703-354D0F2F4A65}
 	EndGlobalSection
 EndGlobal
